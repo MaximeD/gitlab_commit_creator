@@ -1,0 +1,17 @@
+{
+  "name": "Gitlab commit indentator",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Auto indent commit message when you paste it",
+  "content_scripts": [
+    {
+      "matches": [ "*://*/*/merge_requests/*" ],
+      "js": [ "main.js" ],
+      "run_at": "document_end"
+    }
+  ],
+
+  "permissions": [
+    "*gitlab*/merge_requests/*"
+  ]
+}
