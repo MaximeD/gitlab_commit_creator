@@ -1,8 +1,8 @@
 {
-  "name": "Gitlab commit indentator",
+  "name": "Gitlab commit creator",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Auto indent commit message when you paste it",
+  "description": "Automatically fills commit message and description when then are empty",
   "content_scripts": [
     {
       "matches": [ "*://*/*/merge_requests/*" ],
