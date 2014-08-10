@@ -8,13 +8,13 @@
              "128": "icon128.png" },
   "content_scripts": [
     {
-      "matches": [ "*://*/*/merge_requests/*" ],
+      "matches": [ "*://*/*" ],
       "js": [ "main.js" ],
       "run_at": "document_end"
     }
   ],
 
   "permissions": [
-    "*://*/*/merge_requests/*"
+    "*://*/*"
   ]
 }
